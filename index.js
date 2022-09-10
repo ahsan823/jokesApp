@@ -32,7 +32,7 @@ let jokesArray = [
 let jokeText = document.querySelector(".joke-text");
 let button = document.getElementById("joke-btn");
 button.addEventListener("click", () => {
-  let a = Math.ceil(6 * Math.random());
+  let a = Math.ceil(28 * Math.random());
   jokeText.innerHTML = jokesArray[a];
 });
 
