@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-size: 62.5%; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #FF009B !important;
+}
+
+.box{
+    height: 25rem;
+    width: 25rem;
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn{
+    background: #FFf !important;
+    color: #FF009B !important;
+    border-radius: 20px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    transition: 0.2s ease !important;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
